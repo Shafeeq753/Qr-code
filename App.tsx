@@ -1,8 +1,8 @@
 
 import React, { useState, useCallback, useRef } from 'react';
-import { QRState, ExportFormat, QRMetadata } from './types';
-import { getLinkMetadata } from './services/geminiService';
-import QRGenerator from './components/QRGenerator';
+import { QRState, ExportFormat, QRMetadata } from './types.ts';
+import { getLinkMetadata } from './services/geminiService.ts';
+import QRGenerator from './components/QRGenerator.tsx';
 
 const App: React.FC = () => {
   const [inputUrl, setInputUrl] = useState('');
