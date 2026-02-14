@@ -1,0 +1,5 @@
+{
+  "name": "QuickQR AI",
+  "description": "A minimal, elegant QR code generator that uses AI to automatically label and categorize your links for a cleaner organization experience.",
+  "requestFramePermissions": []
+}
